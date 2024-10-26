@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetary - Saving Wildlife and Plants</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+            background-image: url('background.jpg'); /* Set your background image here */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            overflow-x: hidden;
+        }
+
+        /* Header Styling */
+        .container {
+            width: 100%;
+            height: 14%;
+            background-color: rgba(81, 46, 156, 0.8);
+            border-radius: 15px;
+            text-align: center;
+            padding: 1em;
+            transition: transform 0.3s ease;
+            font-family: 'Georgia', serif;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        header .title {
+            font-size: 2em;
+            color: white;
+        }
+
+        /* Content Section Styling */
+        .content-section1 {
+            width: 35%;
+            margin: 30px 0 50px 30px; /* Left margin to be 20px from the image */
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            font-family: sans-serif;
+            float: left;
+        }
+        .content-section1:hover {
+            transform: scale(1.1);
+        }
+        .content-section2 {
+            width: 35%;
+            margin: 30px 30px 30px 30px; /* Left margin to be 20px from the image */
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            font-family: sans-serif;
+            float: right;
+        }
+        .content-section2:hover {
+            transform: scale(1.1);
+        }
+
+        /* Image Section Styling */
+        .section-imager {
+            width: 50%;
+            margin: -50px 0 0 30px;
+            padding: 20px;
+            float:  right;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section-imager img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%; /* Creates an oval shape */
+            clip-path: ellipse(50% 35% at 50% 50%); /* Adjusts the aspect ratio for a more precise oval */
+            
+        }
+        .section-imager:hover {
+            transform: scale(1.1);
+        }
+        .section-imagel:hover {
+            transform: scale(1.1);
+        }
+        .section-imagel {
+            width: 50%;
+            margin: -40px -30px 0 0;
+            padding: 20px;
+            float:  left;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section-content{
+            font-size: 1em;
+        }
+        .section-imagel img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%; /* Creates an oval shape */
+            clip-path: ellipse(50% 35% at 50% 50%); /* Adjusts the aspect ratio for a more precise oval */
+        }
+        
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <tr>
+    <!-- Header Section -->
+    <div class="container">
+        <header>
+            <p class="title">Planetary - Saving Wildlife and Plants</p>
+        </header>
+    </div>
+</tr><br>
+
+    <!-- 5 Major Planetary Topics -->
+    <div class="section-imager">
+        <img src="images/climateimpact.jpg" alt="Climate Impact">
+    </div>
+
+    <div class="content-section1">
+        <h2 class="section-title">Climate Change Impacts</h2>
+        <p class="section-content"><b>Climate change has profound impacts on biological life, disrupting ecosystems and species worldwide. Rising temperatures, altered precipitation patterns, and extreme weather events threaten habitats, leading to species migration, changes in breeding cycles, and in some cases, extinction. Warmer oceans and acidification harm marine life, including coral reefs, which are vital to ocean biodiversity. Forests, wetlands, and other critical habitats are also affected, putting stress on plants, animals, and microorganisms. This ecological imbalance disrupts food chains, decreases biodiversity, and endangers both natural and human-supported ecosystems, emphasizing the urgent need for conservation and adaptation measures.</b></p>
+    </div>
+    <div class="section-imagel">
+        <img src="images\deforestation.jpg">
+    </div>
+    <div class="content-section2">
+        <h2 class="section-title">Deforestation and Biodiversity Loss</h2>
+        <p class="section-content"><b>Deforestation has severe impacts on wildlife and ecosystems, disrupting natural habitats and threatening biodiversity. As forests are cleared for agriculture, urban development, and logging, countless species lose their homes and sources of food, leading to a decline in animal populations and, in some cases, extinction. This loss of habitat forces animals to migrate, often into areas where they cannot survive or where they come into conflict with human activity. Deforestation also disrupts the balance of ecosystems by reducing plant diversity, which affects all organisms in the food chain, from herbivores to top predators. Furthermore, forests play a critical role in maintaining air quality, regulating the climate, and sustaining water cycles. The removal of trees accelerates climate change, alters weather patterns, and reduces rainfall, leading to soil erosion and loss of fertile land. These cascading effects harm ecosystems on a global scale, highlighting the urgent need for sustainable practices and forest conservation to protect wildlife and maintain ecological stability.</b></p>
+    </div>
+
+    
+    <div class="content-section1">
+        <h2 class="section-title">Ocean Pollution and Marine Life</h2>
+        <p class="section-content">Ocean pollution from plastics and chemicals endangers marine species and destroys coral reefs, critical habitats for marine biodiversity.</p>
+    </div>
+
+    <div class="content-section2">
+        <h2 class="section-title">Soil Degradation and Agriculture</h2>
+        <p class="section-content">Soil health is declining due to over-farming, deforestation, and chemical use, which impacts agriculture and food security.</p>
+    </div>
+
+    <div class="content-section1">
+        <h2 class="section-title">Air Pollution and Public Health</h2>
+        <p class="section-content">Air pollution not only affects public health but also harms plant life and contributes to greenhouse gas accumulation.</p>
+    </div>
+
+    <!-- 5 Animal Endangerment Topics -->
+    <!--<div class="content-section2">
+        <h2 class="section-title">Endangered Tigers</h2>
+        <p class="section-content">Tigers are critically endangered due to poaching and habitat loss, with some subspecies already extinct.</p>
+    </div>
+
+    <div class="content-section1">
+        <h2 class="section-title">African Elephants</h2>
+        <p class="section-content">Elephants are facing population declines due to illegal ivory trade and habitat fragmentation.</p>
+    </div>
+
+    <div class="content-section2">
+        <h2 class="section-title">Coral Reefs and Marine Ecosystems</h2>
+        <p class="section-content">Coral reefs, which house diverse marine life, are suffering from bleaching due to rising sea temperatures and ocean acidification.</p>
+    </div>
+
+    <div class="content-section1">
+        <h2 class="section-title">Snow Leopards in the Himalayas</h2>
+        <p class="section-content">Snow leopards are endangered due to hunting, climate change, and shrinking habitats in the Himalayas.</p>
+    </div>
+
+    <div class="content-section2">
+        <h2 class="section-title">Orangutans and Forest Destruction</h2>
+        <p class="section-content">Orangutans face extinction as deforestation for palm oil plantations destroys their habitat in Southeast Asia.</p>
+    </div>
+-->
+    <!-- Footer 
+    <footer>
+        &copy; 2024 Planetary - Dedicated to Raising Awareness for Wildlife and Plant Conservation
+    </footer>
+    -->
+
+
+</body>
+</html>
