@@ -41,10 +41,10 @@
 
         /* Content Section Styling */
         .content-section1 {
-            width: 35%;
+            width: 40%;
             margin: 30px 0 50px 30px; /* Left margin to be 20px from the image */
             padding: 10px;
-            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -55,10 +55,10 @@
             transform: scale(1.1);
         }
         .content-section2 {
-            width: 35%;
+            width: 45%;
             margin: 30px 30px 30px 30px; /* Left margin to be 20px from the image */
             padding: 10px;
-            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -72,29 +72,25 @@
         /* Image Section Styling */
         .section-imager {
             width: 50%;
-            margin: -50px 0 0 30px;
+            margin: -50px 0 10px 20px;
             padding: 20px;
             float:  right;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            resize: vertical;
         }
 
         .section-imager img {
             max-width: 100%;
             height: auto;
             border-radius: 50%; /* Creates an oval shape */
-            clip-path: ellipse(50% 35% at 50% 50%); /* Adjusts the aspect ratio for a more precise oval */
+            clip-path: ellipse(50% 40% at 50% 50%); /* Adjusts the aspect ratio for a more precise oval */
             
         }
-        .section-imager:hover {
-            transform: scale(1.1);
-        }
-        .section-imagel:hover {
-            transform: scale(1.1);
-        }
+       
         .section-imagel {
             width: 50%;
-            margin: -40px -30px 0 0;
-            padding: 20px;
+            margin: -40px -30px 30px 0;
+            padding: 10px;
             float:  left;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -105,7 +101,7 @@
             max-width: 100%;
             height: auto;
             border-radius: 50%; /* Creates an oval shape */
-            clip-path: ellipse(50% 35% at 50% 50%); /* Adjusts the aspect ratio for a more precise oval */
+            clip-path: ellipse(50% 40% at 50% 50%); /* Adjusts the aspect ratio for a more precise oval */
         }
         
         /* Footer Styling */
@@ -135,30 +131,43 @@
 
     <div class="content-section1">
         <h2 class="section-title">Climate Change Impacts</h2>
-        <p class="section-content"><b>Climate change has profound impacts on biological life, disrupting ecosystems and species worldwide. Rising temperatures, altered precipitation patterns, and extreme weather events threaten habitats, leading to species migration, changes in breeding cycles, and in some cases, extinction. Warmer oceans and acidification harm marine life, including coral reefs, which are vital to ocean biodiversity. Forests, wetlands, and other critical habitats are also affected, putting stress on plants, animals, and microorganisms. This ecological imbalance disrupts food chains, decreases biodiversity, and endangers both natural and human-supported ecosystems, emphasizing the urgent need for conservation and adaptation measures.</b></p>
+        <p class="section-content">Climate change has profound impacts on biological life, disrupting ecosystems and species worldwide. Rising temperatures, altered precipitation patterns, and extreme weather events threaten habitats, leading to species migration, changes in breeding cycles, and in some cases, extinction. <br>Warmer oceans and acidification harm marine life, including coral reefs, which are vital to ocean biodiversity. Forests, wetlands, and other critical habitats are also affected, putting stress on plants, animals, and microorganisms. <br>This ecological imbalance disrupts food chains, decreases biodiversity, and endangers both natural and human-supported ecosystems, emphasizing the urgent need for conservation and adaptation measures.</b></p>
     </div>
     <div class="section-imagel">
         <img src="images\deforestation.jpg">
     </div>
     <div class="content-section2">
         <h2 class="section-title">Deforestation and Biodiversity Loss</h2>
-        <p class="section-content"><b>Deforestation has severe impacts on wildlife and ecosystems, disrupting natural habitats and threatening biodiversity. As forests are cleared for agriculture, urban development, and logging, countless species lose their homes and sources of food, leading to a decline in animal populations and, in some cases, extinction. This loss of habitat forces animals to migrate, often into areas where they cannot survive or where they come into conflict with human activity. Deforestation also disrupts the balance of ecosystems by reducing plant diversity, which affects all organisms in the food chain, from herbivores to top predators. Furthermore, forests play a critical role in maintaining air quality, regulating the climate, and sustaining water cycles. The removal of trees accelerates climate change, alters weather patterns, and reduces rainfall, leading to soil erosion and loss of fertile land. These cascading effects harm ecosystems on a global scale, highlighting the urgent need for sustainable practices and forest conservation to protect wildlife and maintain ecological stability.</b></p>
+        <p class="section-content">Deforestation has severe impacts on wildlife and ecosystems, disrupting natural habitats and threatening biodiversity. As forests are cleared for agriculture, urban development, and logging, countless species lose their homes and sources of food, leading to a decline in animal populations and, in some cases, extinction. <br>This loss of habitat forces animals to migrate, often into areas where they cannot survive or where they come into conflict with human activity. Deforestation also disrupts the balance of ecosystems by reducing plant diversity, which affects all organisms in the food chain, from herbivores to top predators. <br>Furthermore, forests play a critical role in maintaining air quality, regulating the climate, and sustaining water cycles. The removal of trees accelerates climate change, alters weather patterns, and reduces rainfall, leading to soil erosion and loss of fertile land. These cascading effects harm ecosystems on a global scale, highlighting the urgent need for sustainable practices and forest conservation to protect wildlife and maintain ecological stability.</b></p>
     </div>
-
-    
+    <div class="section-imager">
+        <img src="images\oceanpollution.jpg">
+    </div>
     <div class="content-section1">
         <h2 class="section-title">Ocean Pollution and Marine Life</h2>
-        <p class="section-content">Ocean pollution from plastics and chemicals endangers marine species and destroys coral reefs, critical habitats for marine biodiversity.</p>
+        <p class="section-content">Ocean pollution is a significant threat to marine life, impacting ecosystems and biodiversity across the globe. Pollutants like plastic waste, chemicals, oil spills, and heavy metals contaminate the water, making it toxic for marine organisms. Plastic debris is particularly harmful, as marine animals often mistake it for food, leading to ingestion that causes suffocation, malnutrition, and even death. Toxic chemicals, including pesticides and industrial waste, accumulate in marine species, moving up the food chain and affecting larger predators, including humans. Oil spills smother marine habitats, disrupt reproductive cycles, and destroy coral reefs, which are essential for marine biodiversity. Additionally, nutrient runoff from agriculture leads to algal blooms, which deplete oxygen levels and create "dead zones" where few organisms can survive. The cumulative effects of ocean pollution threaten the survival of countless species and destabilize marine ecosystems, underscoring the urgent need for global efforts to reduce pollution and protect our oceans.</p></div>
+    <div class="section-imagel">
+        <img src="images\soildegradation.jpg">
     </div>
-
     <div class="content-section2">
         <h2 class="section-title">Soil Degradation and Agriculture</h2>
-        <p class="section-content">Soil health is declining due to over-farming, deforestation, and chemical use, which impacts agriculture and food security.</p>
-    </div>
+        <p class="section-content">Soil pollution is the degradation of land caused by the presence of harmful chemicals, waste, and pollutants. It primarily arises from industrial activities, improper waste disposal, excessive use of pesticides and fertilizers, and the leakage of hazardous materials. These pollutants contaminate the soil, disrupting its natural composition and fertility, which is crucial for healthy plant growth.
 
+            The impacts of soil pollution are far-reaching. Plants grown in polluted soil absorb toxic chemicals, which can enter the food chain and affect animals and humans who consume them. Polluted soil also impairs agricultural productivity, threatening food security and leading to economic losses for farming communities. Additionally, contaminants in the soil can leach into groundwater, posing health risks to communities relying on this water for drinking.
+            
+            Preventing soil pollution involves minimizing chemical use in agriculture, responsibly disposing of industrial waste, and restoring contaminated lands through soil remediation processes. By taking these steps, we can protect soil health, which is essential for sustaining e</p></div>
+    <div class="section-imager">
+        <img src="images\airpollution.jpg">
+    </div>
     <div class="content-section1">
         <h2 class="section-title">Air Pollution and Public Health</h2>
-        <p class="section-content">Air pollution not only affects public health but also harms plant life and contributes to greenhouse gas accumulation.</p>
+        <p class="section-content">Air pollution is a major environmental issue caused by the release of harmful substances, such as carbon monoxide, sulfur dioxide, nitrogen oxides, particulate matter, and volatile organic compounds, into the atmosphere. These pollutants originate from various sources, including vehicle emissions, industrial activities, burning fossil fuels, and agricultural practices.
+<br>
+            The impact of air pollution is profound and far-reaching. For humans, exposure to polluted air can lead to respiratory diseases, heart conditions, asthma, and even cancer. Fine particulate matter, or PM2.5, can penetrate deep into the lungs and bloodstream, causing serious health issues, especially in children, the elderly, and those with preexisting conditions. Air pollution is also a leading cause of premature deaths globally.
+    <br>        
+            Beyond human health, air pollution significantly affects the environment. Pollutants like sulfur dioxide and nitrogen oxides can lead to acid rain, which harms forests, soil, and water bodies. Smog and ground-level ozone reduce visibility, damage crops, and disrupt ecosystems. Greenhouse gases such as carbon dioxide and methane contribute to climate change, leading to global warming, melting glaciers, and extreme weather events.
+        <br>    
+            Mitigating air pollution requires stricter regulations, cleaner technologies, reduced fossil fuel usage, and a shift toward renewable energy sources. Individual actions, such as using public transportation, conserving energy, and supporting green initiatives, also play a vital role in reducing pollution levels and protecting public health and the environment.</p>
     </div>
 
     <!-- 5 Animal Endangerment Topics -->
